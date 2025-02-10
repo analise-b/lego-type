@@ -8,37 +8,21 @@ document.querySelector(".wrapperC").addEventListener("click", () => moveBlocks("
 document.querySelector(".wrapperD").addEventListener("click", () => moveBlocks(".wrapperD"));
 document.querySelector(".wrapperF").addEventListener("click", () => moveBlocks(".wrapperF"));
 document.querySelector(".wrapperH").addEventListener("click", () => moveBlocks(".wrapperH"));
-
 document.querySelector(".wrapperM").addEventListener("click", () => moveBlocks(".wrapperM"));
-
 document.querySelector(".wrapperP").addEventListener("click", () => moveBlocks(".wrapperP"));
-
 document.querySelector(".wrapperU").addEventListener("click", () => moveBlocks(".wrapperU"));
-
 document.querySelector(".wrapperQ").addEventListener("click", () => moveBlocks(".wrapperQ"));
-
 document.querySelector(".wrapperW").addEventListener("click", () => moveBlocks(".wrapperW"));
-
 document.querySelector(".wrapperY").addEventListener("click", () => moveBlocks(".wrapperY"));
-
 document.querySelector(".wrapperI").addEventListener("click", () => moveBlocks(".wrapperI"));
-
 document.querySelector(".wrapperT").addEventListener("click", () => moveBlocks(".wrapperT"));
-
 document.querySelector(".wrapperJ").addEventListener("click", () => moveBlocks(".wrapperJ"));
-
 document.querySelector(".wrapperS").addEventListener("click", () => moveBlocks(".wrapperS"));
-
 document.querySelector(".wrapperN").addEventListener("click", () => moveBlocks(".wrapperN"));
-
 document.querySelector(".wrapperV").addEventListener("click", () => moveBlocks(".wrapperV"));
-
 document.querySelector(".wrapperR").addEventListener("click", () => moveBlocks(".wrapperR"));
-
 document.querySelector(".wrapperK").addEventListener("click", () => moveBlocks(".wrapperK"));
-
 document.querySelector(".wrapperZ").addEventListener("click", () => moveBlocks(".wrapperZ"));
-
 document.querySelector(".wrapperX").addEventListener("click", () => moveBlocks(".wrapperX"));
 
 function moveBlocks(wrapperSelector) {
