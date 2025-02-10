@@ -20,6 +20,7 @@ header {
   font-style: normal;
   padding: 0 20px;
   background-color: #E3000B;
+  z-index: 100;
 }
 
 p {
@@ -30,6 +31,10 @@ p {
 a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.active a:visited {
+  color: #FFED00;
 }
 
 body {
@@ -44,10 +49,48 @@ body {
   align-items: center;
 }
 
+.alphabetPage {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  gap: 5%;
+}
+
 .wrapperL,
 .wrapperE,
 .wrapperG,
-.wrapperO {
+.wrapperO,
+.wrapperA,
+.wrapperB,
+.wrapperC,
+.wrapperD,
+.wrapperE,
+.wrapperF,
+.wrapperG,
+.wrapperH,
+.wrapperI,
+.wrapperJ,
+.wrapperK,
+.wrapperL,
+.wrapperM,
+.wrapperN,
+.wrapperO,
+.wrapperP,
+.wrapperQ,
+.wrapperR,
+.wrapperS,
+.wrapperT,
+.wrapperU,
+.wrapperV,
+.wrapperW,
+.wrapperX,
+.wrapperY,
+.wrapperZ {
   position: relative;
   width: 20%;
   height: 20vh;
@@ -75,7 +118,48 @@ body {
 .block[letter="G.R2"],
 .block[letter="G.R3"],
 .block[letter="O.R1"],
-.block[letter="O.R2"] {
+.block[letter="O.R2"],
+.block[letter="A.R1"],
+.block[letter="A.R2"],
+.block[letter="B.R1"],
+.block[letter="B.R2"],
+.block[letter="C.R1"],
+.block[letter="C.R2"],
+.block[letter="D.R1"],
+.block[letter="D.R2"],
+.block[letter="E.R1"],
+.block[letter="E.R2"],
+.block[letter="F.R1"],
+.block[letter="G.R1"],
+.block[letter="B.R2"],
+.block[letter="B.R3"],
+.block[letter="H.R1"],
+.block[letter="H.R2"],
+.block[letter="I.R1"],
+.block[letter="J.R1"],
+.block[letter="K.R1"],
+.block[letter="L.R1"],
+.block[letter="M.R1"],
+.block[letter="M.R2"],
+.block[letter="N.R1"],
+.block[letter="N.R2"],
+.block[letter="I.R"],
+.block[letter="P.R1"],
+.block[letter="Q.R1"],
+.block[letter="Q.R2"],
+.block[letter="R.R1"],
+.block[letter="S.R1"],
+.block[letter="S.R2"],
+.block[letter="T.R1"],
+.block[letter="U.R1"],
+.block[letter="U.R2"],
+.block[letter="V.R1"],
+.block[letter="V.R2"],
+.block[letter="W.R1"],
+.block[letter="W.R2"],
+.block[letter="Y.R1"],
+.block[letter="Z.R1"],
+.block[letter="Z.R2"] {
   background-image: url("images/rL.png");
   z-index: 0;
 }
@@ -89,17 +173,49 @@ body {
 .block[letter="E.G"],
 .block[letter="G.G"],
 .block[letter="O.G1"],
-.block[letter="O.G2"] {
+.block[letter="O.G2"],
+.block[letter="A.G1"],
+.block[letter="A.G2"],
+.block[letter="B.G1"],
+.block[letter="B.G2"],
+.block[letter="E.G"],
+.block[letter="F.G"],
+.block[letter="G.G"],
+.block[letter="H.G"],
+.block[letter="I.G1"],
+.block[letter="I.G2"],
+.block[letter="J.G"],
+.block[letter="K.G1"],
+.block[letter="K.G2"],
+.block[letter="M.G1"],
+.block[letter="N.G1"],
+.block[letter="N.G2"],
+.block[letter="P.G1"],
+.block[letter="P.G2"],
+.block[letter="Q.G1"],
+.block[letter="Q.G2"],
+.block[letter="Q.G3"],
+.block[letter="R.G1"],
+.block[letter="R.G2"],
+.block[letter="P.G2"],
+.block[letter="S.G"],
+.block[letter="S.G2"],
+.block[letter="S.G3"],
+.block[letter="T.G"],
+.block[letter="U.G"],
+.block[letter="W.G1"],
+.block[letter="X.G1"],
+.block[letter="Y.G"],
+.block[letter="Z.G1"],
+.block[letter="Z.G2"] {
   background-image: url("images/gT.png");
   z-index: 1;
 }
 
-.block[letter="E.G"] {
+.block[letter="C.G"],
+.block[letter="D.G"] {
+  background-image: url("images/gL.png");
   z-index: -1;
-}
-
-.block[letter="G.G"] {
-  z-index: -2;
 }
 
 
@@ -107,12 +223,50 @@ body {
 .block[letter="E.Y"],
 .block[letter="G.Y"],
 .block[letter="O.Y1"],
-.block[letter="O.Y2"] {
+.block[letter="O.Y2"],
+.block[letter="A.Y1"],
+.block[letter="A.Y2"],
+.block[letter="B.Y1"],
+.block[letter="B.Y2"],
+.block[letter="C.Y"],
+.block[letter="D.Y"],
+.block[letter="E.Y"],
+.block[letter="F.Y"],
+.block[letter="G.Y"],
+.block[letter="H.Y1"],
+.block[letter="H.Y2"],
+.block[letter="I.Y"],
+.block[letter="J.Y"],
+.block[letter="K.Y1"],
+.block[letter="L.Y"],
+.block[letter="M.Y1"],
+.block[letter="M.Y2"],
+.block[letter="M.Y3"],
+.block[letter="N.Y1"],
+.block[letter="N.Y2"],
+.block[letter="P.Y1"],
+.block[letter="P.Y2"],
+.block[letter="Q.Y1"],
+.block[letter="Q.Y2"],
+.block[letter="R.Y1"],
+.block[letter="R.Y2"],
+.block[letter="T.Y"],
+.block[letter="U.Y1"],
+.block[letter="U.Y2"],
+.block[letter="V.Y1"],
+.block[letter="V.Y2"],
+.block[letter="W.Y1"],
+.block[letter="W.Y2"],
+.block[letter="Y.Y1"],
+.block[letter="Y.Y2"],
+.block[letter="Z.Y1"],
+.block[letter="Z.Y2"] {
   background-image: url("images/yL.png");
   z-index: 0;
 }
 
-.block[letter="E.B"] {
+.block[letter="E.B"],
+.block[letter="F.B"] {
   background-image: url("images/bL.png");
   z-index: -1;
 }
@@ -121,15 +275,94 @@ body {
 .block[letter="O.B2"],
 .block[letter="G.B1"],
 .block[letter="G.B2"],
-.block[letter="L.B"] {
+.block[letter="L.B"],
+.block[letter="A.B"],
+.block[letter="B.B"],
+.block[letter="D.B"],
+.block[letter="H.B"],
+.block[letter="I.B1"],
+.block[letter="I.B2"],
+.block[letter="J.B1"],
+.block[letter="J.B2"],
+.block[letter="K.B1"],
+.block[letter="K.B2"],
+.block[letter="M.B2"],
+.block[letter="N.B"],
+.block[letter="P.B"],
+.block[letter="Q.B1"],
+.block[letter="Q.B2"],
+.block[letter="R.B"],
+.block[letter="R.B2"],
+.block[letter="S.B1"],
+.block[letter="S.B2"],
+.block[letter="S.B3"],
+.block[letter="T.B"],
+.block[letter="U.B"],
+.block[letter="W.B2"],
+.block[letter="Y.B"],
+.block[letter="Z.B"] {
   background-image: url("images/bT.png");
   z-index: 0;
 }
 
-.block[letter="G.B1"] {
+.block[letter="M.B1"],
+.block[letter="W.B1"],
+.block[letter="V.B"],
+.block[letter="V.B2"],
+.block[letter="R.B3"],
+.block[letter="R.B4"],
+.block[letter="K.B3"],
+.block[letter="K.B4"],
+.block[letter="K.B5"],
+.block[letter="K.B6"],
+.block[letter="X.B1"],
+.block[letter="X.B2"],
+.block[letter="X.B3"],
+.block[letter="X.B4"],
+.block[letter="X.B5"],
+.block[letter="X.B6"],
+.block[letter="X.B7"],
+.block[letter="X.B8"] {
+  background-image: url("images/bS.png");
+  z-index: 0;
+}
+
+.block[letter="G.B1"],
+.block[letter="B.B"],
+.block[letter="B.G1"],
+.block[letter="B.G2"],
+.block[letter="M.B1"],
+.block[letter="W.B1"],
+.block[letter="J.B2"],
+.block[letter="R.B3"],
+.block[letter="R.B4"],
+.block[letter="Z.G1"],
+.block[letter="Z.G2"],
+.block[letter="Z.B"] {
   z-index: -3;
 }
 
 .block[letter="O.B2"] {
   z-index: 1;
+}
+
+.block[letter="E.G"] {
+  z-index: -1;
+}
+
+.block[letter="G.G"],
+.block[letter="A.G2"],
+.block[letter="D.B"],
+.block[letter="F.G"],
+.block[letter="H.G"],
+.block[letter="P.G2"],
+.block[letter="Q.G3"],
+.block[letter="M.G1"],
+.block[letter="M.B2"],
+.block[letter="W.G1"],
+.block[letter="W.B2"],
+.block[letter="N.G1"],
+.block[letter="N.G2"],
+.block[letter="N.B"] {
+  z-index: -2;
 }
