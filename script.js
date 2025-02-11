@@ -185,8 +185,9 @@ function moveBlocks(wrapperSelector) {
         "V.Y1": { x: 0, y: 35, rotation: 70 },
         "V.R2": { x: 25, y: 0, rotation: 20 },
         "V.Y2": { x: 25, y: 35, rotation: 70 },
-        "V.B": { x: 15, y: 60, rotation: 90 },
-        "V.B2": { x: 6, y: 60, rotation: 90 },
+        "V.B": { x: 18, y: 60, rotation: 92 },
+        "V.B2": { x: 6, y: 60, rotation: 92 },
+        "V.R3": { x: 11, y: 70, rotation: 92 },
 
         "R.R1": { x: 0, y: 0, rotation: 20 },
         "R.Y1": { x: 0, y: 35, rotation: 70 },
@@ -200,11 +201,13 @@ function moveBlocks(wrapperSelector) {
 
         "K.R1": { x: 0, y: 0, rotation: 20 },
         "K.Y1": { x: 0, y: 35, rotation: 70 },
-        "K.G2": { x: 3, y: 15, rotation: 102 },
-        "K.B5": { x: 10, y: 2, rotation: 93 },
+        "K.G2": { x: 3, y: 15, rotation: 103 },
+        "K.B5": { x: 10, y: 1, rotation: 92 },
         "K.B6": { x: 21, y: -19, rotation: 93 },
         "K.B3": { x: 10, y: 30, rotation: 93 },
         "K.B4": { x: 20, y: 50, rotation: 93 },
+        "K.R2": { x: 15, y: 40, rotation: 93 },
+        "K.R3": { x: 15, y: -10, rotation: 93 },
 
         "Z.R1": { x: 10, y: 50, rotation: 110 },
         "Z.R2": { x: 33, y: -41, rotation: 110 },

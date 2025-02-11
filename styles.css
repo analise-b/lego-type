@@ -5,13 +5,14 @@ html {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   background-color: #000000;
+  cursor: url(images/hand.png) 20 20, auto;
 }
 
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 10%;
+  height: 15%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -50,16 +51,45 @@ body {
   overflow-x: hidden;
 }
 
+#specimenPage {
+  margin-top: 5%;
+}
+
+#mainPage {
+  margin-top: 0%;
+}
+
 .alphabetPage {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 100%;
+  margin: auto;
   margin-top: 5%;
-  gap: 5%;
+  gap: 0;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  color:#FFFFFF;
+  font-size: 12px;
+  margin-right: 25%;
+  width: 30%;
+  margin-bottom: 7%;
+  font-family: "Short Stack", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description p {
+  margin: 0;
+  padding: 0;
 }
 
 .wrapperL,
@@ -97,9 +127,26 @@ body {
   height: 20vh;
   display: flex;
   flex-direction: row;
-  margin: auto;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  margin: auto;
+  margin-bottom: 7%;
+}
+
+#main,
+#main2,
+#main3,
+#main4 {
+  position: relative;
+  width: 20%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.75);
+  margin: auto;
+  margin-right: 5%;
 }
 
 .block {
@@ -107,7 +154,6 @@ body {
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  transition: transform 0.5s ease-in-out;
   object-fit: contain;
   position: absolute;
 }
@@ -163,6 +209,7 @@ body {
 .block[letter="Z.R2"] {
   background-image: url("images/rL.png");
   z-index: 0;
+  transition: transform 0.5s ease-in-out;
 }
 
 .block[letter="G.R3"] {
@@ -211,12 +258,14 @@ body {
 .block[letter="Z.G2"] {
   background-image: url("images/gT.png");
   z-index: 1;
+  transition: transform 0.2s ease-in-out;
 }
 
 .block[letter="C.G"],
 .block[letter="D.G"] {
   background-image: url("images/gL.png");
   z-index: -1;
+  transition: transform 0.7s ease-in-out;
 }
 
 
@@ -264,12 +313,14 @@ body {
 .block[letter="Z.Y2"] {
   background-image: url("images/yL.png");
   z-index: 0;
+  transition: transform 0.9s ease-in-out;
 }
 
 .block[letter="E.B"],
 .block[letter="F.B"] {
   background-image: url("images/bL.png");
   z-index: -1;
+  transition: transform 0.5s ease-in-out;
 }
 
 .block[letter="O.B1"],
@@ -304,13 +355,13 @@ body {
 .block[letter="Z.B"] {
   background-image: url("images/bT.png");
   z-index: 0;
+  transition: transform 0.7s ease-in-out;
 }
 
 .block[letter="M.B1"],
 .block[letter="W.B1"],
 .block[letter="V.B"],
 .block[letter="V.B2"],
-.block[letter="R.B3"],
 .block[letter="R.B4"],
 .block[letter="K.B3"],
 .block[letter="K.B4"],
@@ -326,6 +377,16 @@ body {
 .block[letter="X.B8"] {
   background-image: url("images/bS.png");
   z-index: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.block[letter="V.R3"],
+.block[letter="K.R2"],
+.block[letter="K.R3"],
+.block[letter="R.B3"] {
+  background-image: url("images/rS.png");
+  z-index: 0;
+  transition: transform 0.3s ease-in-out;
 }
 
 .block[letter="G.B1"],
@@ -339,7 +400,9 @@ body {
 .block[letter="R.B4"],
 .block[letter="Z.G1"],
 .block[letter="Z.G2"],
-.block[letter="Z.B"] {
+.block[letter="Z.B"],
+.block[letter="K.R2"],
+.block[letter="K.R3"] {
   z-index: -3;
 }
 
@@ -366,4 +429,12 @@ body {
 .block[letter="N.G2"],
 .block[letter="N.B"] {
   z-index: -2;
+}
+
+.block[letter="R.B3"] {
+  z-index: 1;
+}
+
+.block[letter="R.B4"] {
+  z-index: 2;
 }
