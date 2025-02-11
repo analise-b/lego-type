@@ -26,6 +26,10 @@ document.querySelector(".wrapperZ").addEventListener("click", () => moveBlocks("
 document.querySelector(".wrapperX").addEventListener("click", () => moveBlocks(".wrapperX"));
 
 function moveBlocks(wrapperSelector) {
+    
+    let audio = new Audio('sound.mp3');
+    audio.play();
+
     const wrapper = document.querySelector(wrapperSelector);
     const wrapperWidth = wrapper.offsetWidth;
     const wrapperHeight = wrapper.offsetHeight;
