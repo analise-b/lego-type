@@ -20,8 +20,9 @@ header {
   font-weight: 400;
   font-style: normal;
   padding: 0 20px;
-  background-color: #E3000B;
+  background-color: #000000;
   z-index: 100;
+  border-bottom: 2px solid #E3000B;
 }
 
 p {
@@ -147,6 +148,7 @@ body {
   transform: scale(1.75);
   margin: auto;
   margin-right: 5%;
+  margin-top: 23%;
 }
 
 .block {
@@ -209,7 +211,7 @@ body {
 .block[letter="Z.R2"] {
   background-image: url("images/rL.png");
   z-index: 0;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .block[letter="G.R3"] {
@@ -368,25 +370,37 @@ body {
 .block[letter="K.B5"],
 .block[letter="K.B6"],
 .block[letter="X.B1"],
-.block[letter="X.B2"],
-.block[letter="X.B3"],
 .block[letter="X.B4"],
-.block[letter="X.B5"],
-.block[letter="X.B6"],
-.block[letter="X.B7"],
-.block[letter="X.B8"] {
+.block[letter="X.B2"],
+.block[letter="X.B6"] {
   background-image: url("images/bS.png");
   z-index: 0;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .block[letter="V.R3"],
 .block[letter="K.R2"],
 .block[letter="K.R3"],
-.block[letter="R.B3"] {
+.block[letter="R.B3"],
+.block[letter="X.B7"],
+.block[letter="X.R"] {
   background-image: url("images/rS.png");
   z-index: 0;
   transition: transform 0.3s ease-in-out;
+}
+
+.block[letter="X.B4"],
+.block[letter="X.B5"] {
+  background-image: url("images/yS.png");
+  z-index: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.block[letter="X.B3"],
+.block[letter="X.B8"] {
+  background-image: url("images/gS.png");
+  z-index: 0;
+  transition: transform 0.5s ease-in-out;
 }
 
 .block[letter="G.B1"],
@@ -435,6 +449,7 @@ body {
   z-index: 1;
 }
 
-.block[letter="R.B4"] {
+.block[letter="R.B4"],
+.block[letter="B.B"] {
   z-index: 2;
 }

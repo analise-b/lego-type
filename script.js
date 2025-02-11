@@ -218,15 +218,19 @@ function moveBlocks(wrapperSelector) {
         "Z.B": { x: 18, y: 30, rotation: 130 },
 
         "X.G1": { x: 0, y: 15, rotation: 102 },
-        "X.B1": { x: 10, y: 30, rotation: 93 },
-        "X.B2": { x: 20, y: 50, rotation: 93 },
-        "X.B3": { x: 10, y: 2, rotation: 93 },
-        "X.B4": { x: -20, y: 50, rotation: 93 },
+        
+        "X.B1": { x: 5, y: 30, rotation: 93 },
+        "X.B8": { x: -5, y: 30, rotation: 93 },
 
-        "X.B5": { x: -10, y: 2, rotation: 93 },
-        "X.B6": { x: -21, y: -19, rotation: 93 },
-        "X.B7": { x: 21, y: -19, rotation: 93 },
-        "X.B8": { x: -10, y: 30, rotation: 93 },
+        "X.B2": { x: 15, y: 50, rotation: 93 },
+        "X.B4": { x: -15, y: 50, rotation: 93 },
+
+        "X.B3": { x: 5, y: 2, rotation: 93 },
+        "X.B5": { x: -5, y: 2, rotation: 93 },
+        
+        "X.B6": { x: -15, y: -19, rotation: 93 },
+        "X.B7": { x: 15, y: -19, rotation: 93 },
+        "X.R": { x: 0, y: 14, rotation: 93 },
 
 
 
