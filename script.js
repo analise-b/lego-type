@@ -206,12 +206,12 @@ function moveBlocks(wrapperSelector) {
         "K.R1": { x: 0, y: 0, rotation: 20 },
         "K.Y1": { x: 0, y: 35, rotation: 70 },
         "K.G2": { x: 3, y: 15, rotation: 103 },
-        "K.B5": { x: 10, y: 1, rotation: 92 },
-        "K.B6": { x: 21, y: -19, rotation: 93 },
-        "K.B3": { x: 10, y: 30, rotation: 93 },
-        "K.B4": { x: 20, y: 50, rotation: 93 },
-        "K.R2": { x: 15, y: 40, rotation: 93 },
-        "K.R3": { x: 15, y: -10, rotation: 93 },
+        "K.B5": { x: 12, y: 1, rotation: 92 },
+        "K.B6": { x: 24, y: -23, rotation: 93 },
+        "K.B3": { x: 12, y: 30, rotation: 93 },
+        "K.B4": { x: 23, y: 55, rotation: 93 },
+        "K.R2": { x: 18, y: 43, rotation: 93 },
+        "K.R3": { x: 18, y: -15, rotation: 93 },
 
         "Z.R1": { x: 10, y: 50, rotation: 110 },
         "Z.R2": { x: 33, y: -41, rotation: 110 },
@@ -235,9 +235,6 @@ function moveBlocks(wrapperSelector) {
         "X.B6": { x: -15, y: -19, rotation: 93 },
         "X.B7": { x: 15, y: -19, rotation: 93 },
         "X.R": { x: 0, y: 14, rotation: 93 },
-
-
-
 
     };
 
